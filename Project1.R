@@ -1,4 +1,4 @@
-L = read.csv("/Users/pk/Downloads/facebookdata.csv") # read in the Facebook dataset csv
+L = read.csv("/facebookdata.csv") # read in the Facebook dataset csv
 View(L)
 mean(L$numfriends) # Find the mean for all variables in the dataset
 sd(L$numfriends) # Find the standard deviation for all variables in the dataset
